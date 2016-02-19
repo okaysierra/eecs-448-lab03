@@ -1,7 +1,7 @@
 function validate()
 {
-  var a = document.getElementById("");
-  var b = document.getElementById("");
+  var a = document.getElementById("a");
+  var b = document.getElementById("b");
 
   if(a != b)
     {
