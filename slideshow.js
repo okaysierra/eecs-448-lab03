@@ -8,7 +8,7 @@ var i =0;
 
 function next()
 {
-  
+  document.close();
   if(i==images.length-1)
   {
     i=0;
@@ -21,7 +21,7 @@ function next()
   }
 
   document.write("<img src="+images[i]+" width=500px />");
-  document.write("<input type=button id=previous value=previous onclick=previous() />");
+  document.write("<br><br><input type=button id=previous value=previous onclick=previous() />");
   document.write("<input type=button id=next value=next onclick=next() />");
 
 
@@ -31,6 +31,7 @@ function next()
 
 function previous()
 {
+  document.close();
   if(i==0)
     {
       i=images.length-1;
@@ -42,4 +43,7 @@ function previous()
 
     }
     document.write("<img src ="+images[i]+" width=500px>");
+    document.write("<br><br><input type=button id=previous value=previous onclick=previous() />");
+    document.write("<input type=button id=next value=next onclick=next() />");
+
 }
