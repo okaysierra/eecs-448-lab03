@@ -9,7 +9,7 @@
 
 <body>
 
-  <div id = "dummy text">
+  <div id = "dummytext">
     <p>These trees are so much fun. I get started on them and I have a hard time stopping. In nature, dead trees are just as normal as live trees. When things happen - enjoy them. They're little gifts. How to paint. That's easy. What to paint. That's much harder. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves. We don't need any guidelines or formats. All we need to do is just let it flow right out of us.</p>
 
 <p>I think there's an artist hidden in the bottom of every single one of us. We need dark in order to show light. There isn't a rule. You just practice and find out which way works best for you. For the lack of a better word I call them hangy downs. Let's put a touch more of the magic here.</p>
@@ -27,5 +27,19 @@
 <p>Dummy text courtesy of <a href="http://www.bobrosslipsum.com/">http://www.bobrosslipsum.com/</a></p>
 
   </div>
+
+  <form id = "colors">
+    <br>Set border color<br>
+    Red (00-FF):<br><input type ="text" id = "borderRed" value="00"><br>
+    Green(00-FF):<br><input type="text" id = "borderGreen" value="00"><br>
+    Blue(00-FF):<br><input type="text" id ="borderBlue" value="00"><br><br>
+    Set border width<br>
+    <input type="text" id = "width" value="10px"><br><br>
+    Set Background color<br>
+    Red (00-FF): <br> <input type="text" id = "bgRed" value="FF"><br>
+    Green (00-FF): <br><input type="text" id ="bgGreen" value="FF"><br>
+    Blue(00-FF): <br> <input type="text" id="bgBlue" value="FF"><br><br>
+    <input type="button" id="submit" value="Change colors" onclick="colors()">
+  </form>
 </body>
 </html>
