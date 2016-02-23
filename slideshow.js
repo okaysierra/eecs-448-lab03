@@ -3,7 +3,7 @@ var images = ["resources/marie_curie.png" , "resources/python.png", "resources/s
 var i =0;
 
 
-  document.write("<img src="+images[i]+" width=500px />");
+  document.write("<img src="+images[i]+" width=400px height=auto/>");
 
 
 function next()
@@ -20,7 +20,7 @@ function next()
 
   }
 
-  document.write("<img src="+images[i]+" width=500px />");
+  document.write("<img src="+images[i]+" width=400px height=auto/>");
   document.write("<br><br><input type=button id=previous value=previous onclick=previous() />");
   document.write("<input type=button id=next value=next onclick=next() />");
 
@@ -42,7 +42,7 @@ function previous()
       i--;
 
     }
-    document.write("<img src ="+images[i]+" width=500px>");
+    document.write("<img src ="+images[i]+" width=400px height=auto/>");
     document.write("<br><br><input type=button id=previous value=previous onclick=previous() />");
     document.write("<input type=button id=next value=next onclick=next() />");
 
